@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/examples/examples
+/ckafka
+
+# Test & coverage
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# SQLite fallback databases
+*.db
+*.db-shm
+*.db-wal
+
+# Go workspace
+go.work
+go.work.sum
+
+# Build cache
+/dist/
+/bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Env
+.env
+.env.local
+.claude/
